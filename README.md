@@ -14,27 +14,28 @@ Create virtual environment
 $ source virt/bin/activate
 ```
 After creating virtual environment, it should look like this:
-
+```bash
 (virt) file_name $
-
+```
 ## Install Django and other requirements
-
+```bash
 $ pip install django
 
 $ pip install bcrypt
 
 $ pip install argon2
-
+```
 
 ## Build and run production
 
 Make Migrations
-
+```bash
 $ python3 manage.py makemigrations 
 
 $ python3 manage.py migrate
-
+```
 
 Start up Django
-
+```bash
 $ python3 manage.py runserver
+```

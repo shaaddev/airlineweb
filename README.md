@@ -2,7 +2,7 @@
     <img src="static/images/logo.png" width="50px" height="50px" style="margin: 0 auto;"/>
 </p>
 
-<h1 align="center"> Airline Web </h1>
+<h1 align="center"> Airline Web 🛫</h1>
 
 <p align="center"> 
     Airline Website Basic Project created in Django 
@@ -10,7 +10,7 @@
 
 ![Markdown Logo](static/images/home.PNG)
 
-## Set up 
+## 🛠 Set up 
 
 Install virtual environment
 ```bash
@@ -24,7 +24,7 @@ After creating virtual environment, it should look like this:
 ```bash
 (virt) file_name $
 ```
-## Install Django and other requirements
+## 💻 Install Django and other requirements
 ```bash
 $ pip install django
 
@@ -33,7 +33,7 @@ $ pip install bcrypt
 $ pip install argon2
 ```
 
-## Build and run production
+## ⚙️ Build and run production
 
 Make Migrations
 ```bash

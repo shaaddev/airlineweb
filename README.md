@@ -17,7 +17,7 @@ After creating virtual environment, it should look like this:
 
 (virt) file_name $
 
-### Install Django and other requirements
+## Install Django and other requirements
 
 $ pip install django
 
@@ -26,7 +26,7 @@ $ pip install bcrypt
 $ pip install argon2
 
 
-#### Build and run production
+## Build and run production
 
 Make Migrations
 

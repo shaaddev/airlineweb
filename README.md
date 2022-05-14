@@ -1,10 +1,16 @@
-# Airline Web
+<p align="center">
+    <img src="static/images/logo.png" width="50px" height="50px" style="margin: 0 auto;"/>
+</p>
 
-Airline Website Basic Project
-![Markdown Logo]
-(home.PNG)
+<h1 align="center"> Airline Web </h1>
 
-## Set up
+<p align="center"> 
+    Airline Website Basic Project created in Django 
+</p>
+
+![Markdown Logo](static/images/home.PNG)
+
+## Set up 
 
 Install virtual environment
 ```bash

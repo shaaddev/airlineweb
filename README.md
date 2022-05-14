@@ -46,3 +46,7 @@ Start up Django
 ```bash
 $ python3 manage.py runserver
 ```
+
+<p align="center">
+    <img src="static/images/logo.png" width="50px" height="50px" style="margin: 0 auto;"/>
+</p>

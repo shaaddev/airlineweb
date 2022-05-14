@@ -6,13 +6,13 @@ Airline Website Basic Project
 ## Set up
 
 Install virtual environment
-
+```bash
 $ python3 -m venv virt
-
+```
 Create virtual environment
-
+```bash
 $ source virt/bin/activate
-
+```
 After creating virtual environment, it should look like this:
 
 (virt) file_name $

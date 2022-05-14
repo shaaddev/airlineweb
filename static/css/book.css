@@ -1,0 +1,223 @@
+html {
+    background-color: whitesmoke;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+li {
+    list-style-type: none;
+}
+
+#header li {
+    padding: 0 70px;
+    margin: 0 auto;
+    position: relative;
+    display: inline-block;
+}
+
+#header ul {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#header a {
+    transition: all .1s ease-in;
+}
+
+#header a:hover {
+    color: #98fb98;
+    letter-spacing: 1px;
+}
+
+.navigation {
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif', 'Monsterrat';
+    font-size: 14px;
+    width: 100%;
+    height: 48px;
+    min-height: 55px;
+    z-index: 99;
+    /* background-color: rgba(0, 0, 0, 85%); */
+    background-color: #005eb8;
+}
+
+.flight-background-color {
+    padding: 30vh 0;
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 50%);
+}
+
+img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    object-fit: fill;
+    height: 100%;
+}
+
+h1 {
+    position: relative;
+    margin: 10 auto;
+    padding: 0;
+}
+
+#brand {
+    position: relative;
+    padding: 0;
+    color: rgba(255, 255, 255, 85%);
+    text-align: left;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif', 'Montserrat';
+    font-size: 20px;
+    font-weight: bold;
+    width: 15%;
+    right: 70%;
+    left: 2%;
+    bottom: 50%;
+    min-height: 50px;
+    z-index: 10;
+    border-bottom: 2px solid rgba(255, 255, 255, 85%)
+}
+
+.book-section h3{
+    padding: 0;
+    margin: 10 auto;
+    width: 15%;
+    position: relative;
+    color: rgba(255, 255, 255, 85%);
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif', 'Monsterrat';
+    font-size: 20px;
+    text-align: left;
+    left: 2%;
+    min-height: 50px;
+}
+
+.book-section form {
+    position: relative;
+    padding: 20px;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 85%);
+    font-family:'Spoqa Han Sans Neo', 'sans-serif', 'Montserrat';
+    font-size: 15px;
+    font-weight: bold;
+    width: 70%;
+    text-align: left;
+    height: 90%;
+    min-height: 125px;
+    
+    border: 3px solid rgba(255, 255, 255, 70%);
+    border-radius: 10px;
+    background-color: #005eb8;
+}
+
+.book-section .origin, .book-section .destination {
+    /* border: 2px solid red; */
+    padding-right: 200px;
+    margin: 0 auto;
+}
+
+.book-section input {
+    margin-right: 90px;
+}
+
+
+::placeholder {
+    color: rgba(255, 255, 255, 50%);
+}
+
+.From, .To, .trip-type, .depart-return, .passenger {
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background-color: #005eb8;
+    box-sizing: border-box;
+    color: rgba(255, 255, 255, 85%);
+}
+
+.depart-return {
+    padding-left: -10px;
+}
+
+.passenger, .To {
+    margin-bottom: 44px;
+}
+
+.passenger, .trip-type {
+    padding-right: 70px;
+}
+
+#date {
+    margin-left: 150px;
+}
+
+#shop, #refund, #flexible{
+    margin-right: 1px;
+}
+
+whitespace {
+    margin: 50px;
+}
+
+.search-button {
+    position: absolute;
+    background-color: #ce2020;
+    color:rgba(255, 255, 255, 85%);
+    border-radius: 10px;
+    padding: 12px 25px;
+    margin: 10 auto;
+    top: 150px;
+    right: 100px;
+    cursor: pointer;
+    border: 2px solid #ce2020;
+}
+
+.search-button:hover {
+    background-color: #483d8b;
+    border: 2px solid #483d8b;
+}
+
+
+
+
+
+#bottom p{
+    position: absolute;
+    margin: 0 auto;
+    padding: 0;
+    left: 20px;
+    bottom: 0;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif', 'Montserrat';
+    font-size: 12px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 85%);
+    line-height: 30px;
+    width: 50%;
+    height: 60px;
+    /* color:rgba(255, 255, 255, 75%); */
+    /* border: 2px solid red; */
+}
+
+b {
+    color: #26c5f6;
+}

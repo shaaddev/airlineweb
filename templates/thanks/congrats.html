@@ -1,0 +1,27 @@
+
+{% extends 'base.html' %}
+{% load static %}
+
+{% block head %}
+<link rel="stylesheet" href="{% static 'css/congrats.css' %}">
+{% endblock %}
+
+{% block content %}
+    <img src="{% static 'images/Background/departures.jpeg' %}" alt="Cabin">
+    <div class="background-color"></div>
+
+    <section class="congrats">
+        <h1>Congratulations on signing up!</h1>
+        <h3>Click the Go Back Button to go to the Home Page</h3>
+
+        <a class="back-button" href="{% url 'home' %}">Go Back</a>
+
+    </section>
+
+    <section class="congrats-2">
+        <h3>Feel Free to also check these pages out</h3>
+        <a class="book-button" href="{% url 'about' %}">Book</a>
+        <a class="about-button" href="{% url 'contact' %}">About</a>
+    </section>
+    
+{% endblock %}

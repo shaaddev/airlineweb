@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block head %}
+<link rel="stylesheet" href="{% static 'css/book.css' %}">
+{% endblock %}
+
+
+{% block content %}
+
+    <section class="book-section">
+
+        <img src="{% static 'images/Background/cabin.jpeg' %}" alt="seoul">
+        <div class="flight-background-color"></div>
+
+        <h1 id="brand">Roytec Airlines</h1>
+        <h3>.Flights</h3>
+
+        <form method="POST">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <input type="submit" class="search-button" href="{% url 'home' %}">
+        </form>
+    </section>
+{% endblock %}

@@ -1,0 +1,62 @@
+
+.back-button, .about-button, .book-button {
+    padding: 5px 20px;
+    text-decoration: none;
+    color:rgba(255, 255, 255, 85%);
+    background-color: rgba(255, 255, 255, 15%);
+    border: 2px solid #005eb8;
+    min-height: 200px;
+}
+
+.about-button, .book-button {
+    margin: 15px;
+}
+
+.back-button:hover, .about-button:hover, .book-button:hover {
+    background-color: #005eb8;
+    color:rgba(255, 255, 255, 85%);
+}
+
+img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    object-fit: fill;
+    height: 100%;
+}
+
+.background-color {
+    padding: 30vh 0;
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color:rgba(0, 0, 0, 50%);
+}
+
+.congrats {
+    position: relative;
+    padding: 0;
+    margin: 0 auto;
+    text-align: left;
+    width: 75%;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif', 'Monsterrat';
+    color: rgba(255, 255, 255, 85%)
+}
+
+.congrats-2 {
+    position: relative;
+    padding: 0;
+    margin: 0 auto;
+    text-align: right;
+    width: 75%;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif', 'Monsterrat';
+    color: rgba(255, 255, 255, 85%);
+}

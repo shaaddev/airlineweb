@@ -1,0 +1,27 @@
+
+{% extends 'base.html' %}
+{% load static %}
+
+{% block head %}
+<link rel="stylesheet" href="{% static 'css/thanks.css' %}">
+{% endblock %}
+
+{% block content %}
+    <img src="{% static 'images/Background/cabin.jpeg' %}" alt="Cabin">
+    <div class="background-color"></div>
+
+    <section class="thank-you">
+        <h1>Thank you for booking!</h1>
+        <h3>Please wait until we find a suitable flight or click the Go Back Button</h3>
+
+        <a class="back-button" href="{% url 'home' %}">Go Back</a>
+
+    </section>
+
+    <section class="thank-you-2">
+        <h3>Feel Free to also check these pages out</h3>
+        <a class="about-button" href="{% url 'about' %}">About</a>
+        <a class="contact-button" href="{% url 'contact' %}">Contact</a>
+    </section>
+    
+{% endblock %}

@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% load static %} 
+
+{% block head %}
+<link rel="stylesheet" href="{% static 'css/contact.css' %}">
+{% endblock %}
+
+{% block content %}    
+    <section id="contact-section">
+
+        <img src="{% static 'images/Background/departures.jpeg' %}" alt="donald">
+        <div class="contact-background-color"></div>
+
+        <h1 id="brand">Roytec Airlines</h1>
+        
+        <h3>.Contact</h3>
+        <p>
+            <form method="POST">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <input type="submit" class="btn btn-primary" value="Sign Up!"> 
+            </form>
+            <br><br>
+            
+            
+        </p>
+    </section>
+
+    <div id="contact">
+        <ul>
+            <li><a href="mailto:20201041@roytec.edu" target=""><img id="email-logo" src="{% static 'images/logos/gmail.png' %}" alt="Email"></a></li>
+            <li><a href="https://www.facebook.com/" target="_blank"><img id="facebook-logo" src="{% static 'images/logos/facebook.png' %}" alt="Facebook"></a></li>
+            <li><a href="https://www.instagram.com/" target="_blank"><img id="insta-logo" src="{% static 'images/logos/instagram.png' %}" alt="Instagram"></a></li>
+            <li><a href="https://twitter.com/" target="_blank"><img id="bird-logo" src="{% static 'images/logos/twitter.png' %}" alt="Twitter"></a></li>
+            <li><a href="https://www.youtube.com/" target="_blank"><img id="tiktok-logo" src="{% static 'images/logos/youtube.png' %}" alt="Youtube"></a></li>
+            <li><a href="https://www.linkedin.com/in/rashaadleehue-joseph/" target="_blank"><img id="linkedin-logo" src="{% static 'images/logos/linkedin.png' %}" alt="Linkedin"></a></li>
+        </ul>
+    </div>
+
+{% endblock %}

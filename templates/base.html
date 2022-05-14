@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="en">
+    <head>
+        <title> {% block title %} Roytec Airlines {% endblock %}</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
+        <link rel="icon" type="image/x-icon" href="{% static 'images/logo.png' %}">
+        <!-- Bootsrap 3 -->
+        
+        {% block head %}
+        {% endblock %}
+    </head>
+
+
+    <body>
+        <div class="navigation" id="header">  
+            <ul>
+                <li><a href="{% url 'home' %}"><h2>.Home</h2></a></li> 
+                <li><a href="{% url 'book' %}"><h2>.Book</h2></a></li> 
+                <li><a href="{% url 'about' %}"><h2>.About</h2></a></li> 
+                <li><a href="{% url 'contact' %}"><h2>.Contact</h2></a></li>
+            </ul>
+        </div>
+
+        {% block content %}
+        {% endblock %}
+    </body>
+
+    <footer id="bottom">
+        <p>Made By <b>R.L.H</b> <br> All rights reserved &copy</p>
+    </footer>
+</html>

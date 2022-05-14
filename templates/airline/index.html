@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block head %}
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+{% endblock %}
+
+{% block content %}
+    <section class="home-section">
+        <img id="background-image" src="{% static 'images/Background/seoul.jpeg' %}" alt="City">
+        <div class="home-background-color"></div>
+        
+        <h1 id="brand">Roytec Airlines</h1> 
+        <h3>.Home</h3>
+        <h2>No Change Fees:<br>It's that simple</h2>
+        <h4>Book your next trip now and enjoy peace of mind.</h4>
+        <span id="book-button"><a href="{% url 'book' %}">Book Today</a></span>
+        
+        <h5>Terms Apply.</h5>
+        
+    </section>
+    
+    <div class="sponsor">
+        <img id="slideshow" class="slideshow" src="{% static 'images/slideshow/fleet.jpeg' %}" alt="Fleets">
+        <h4>Views from Above<br>Click Image to see the magic.</h4>
+    </div>
+    
+    <script src="{% static 'js/index.js' %}"></script>
+{% endblock %}

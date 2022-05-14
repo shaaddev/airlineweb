@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block head %}
+<link rel="stylesheet" href="{% static 'css/about.css' %}">
+{% endblock %}
+
+{% block content %}
+    
+    <section class="about-section">
+        <img src="{% static 'images/Background/sky.jpeg' %}" alt="Background">
+        <div class="about-background-color"></div>
+
+        <div id="shape" ><img id="image" src="{% static 'images/about-logo.gif' %}" alt="logo"></div>
+        <h1 id="brand">Roytec Airlines</h1>
+        <h3>.About</h3>
+
+        <p>
+            UWI Roytec, also know as the School of Business and Applied Studies, is finally going global through their first and very own airline.
+            <br><br>Founded in 1987<br><br>
+            When ROYTEC was founded by RBTT Bank Limited, the insitution's primary purpose was the preparation of graduates to meet the
+            human resource requirements of the banking and financial services sectors.<bR><br>
+            And now, our new purpose is the conquer in the Aviation Field.
+        </p>
+        
+    </section>
+{% endblock %}

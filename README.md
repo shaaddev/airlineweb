@@ -8,7 +8,9 @@
     Airline Website Basic Project created in Django 
 </p>
 
-![Markdown Logo](static/images/home.PNG)
+<p>
+    <img src="static/images/home.PNG">
+</p>
 
 ## 🛠 Set up 
 
